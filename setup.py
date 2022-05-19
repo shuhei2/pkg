@@ -10,5 +10,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://example.com/",
     packages=setuptools.find_packages(),
-    classifiers=[]
+    classifiers=[],
+    install_requires=[
+        "requests",
+   ]
 )
