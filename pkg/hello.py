@@ -1,5 +1,5 @@
 import requests
 
 def hello():
-    with open("temp.txt", "r") as f:
+    with open("temp.txt", "r", encoding="utf-8") as f:
         print(f)
