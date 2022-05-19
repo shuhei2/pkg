@@ -1,2 +1,8 @@
+import requests
+
 def hello():
-    print("hello")
+    print(requests.get("https://www.yahoo.co.jp").content)
+
+
+
+
