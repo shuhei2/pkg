@@ -1,8 +1,5 @@
 import requests
 
 def hello():
-    print(requests.get("https://www.yahoo.co.jp").content)
-
-
-
-
+    with open("temp.txt", "r") as f:
+        print(f)
